@@ -16,3 +16,23 @@ Merp.
 plot(cars)
 ```
 
+# Ben's cool map
+```{r}
+#library(leaflet) #install.packages("leaflet")
+#leaflet() %>%
+#addProvider(provider$Esr.OceanBasemap) %>%
+#addMarkers(-121.788163, 36.802151, label = "R rocks at MBARI")
+```
+
+# Following Julie
+```{r}
+library(tidyverse)
+library(nycflights13) #install.packages("nycflights13")
+```
+
+flights
+```{r}
+flights %>%
+  filte(month == 1,
+        day == 1)
+```
