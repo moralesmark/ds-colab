@@ -33,6 +33,6 @@ library(nycflights13) #install.packages("nycflights13")
 flights
 ```{r}
 flights %>%
-  filte(month == 1,
+  filter(month == 1,
         day == 1)
 ```
